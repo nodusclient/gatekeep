@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "gg.nodus.gatekeep.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "MixinBossBarHud",
+    "MixinMinecraftClient",
+    "MixinProfileKeys"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
